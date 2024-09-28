@@ -1,0 +1,149 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background: rgb(253, 253, 253);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.left_container {
+  width: 300px;
+  /* height: 1800px; */
+  background-color: #353a3d;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.picture_person {
+  height: 250px;
+  width: 250px;
+  margin: 25px;
+  background-color: #04c869;
+  
+  border-radius: 50%;
+  align-self: center;
+  overflow: hidden;
+}
+.pic_person{
+  
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.information_person {
+  width: 250px;
+  /* height: 100px; */
+  margin-left: 25PX;
+  margin-top: 20px;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  /* Canh giữa theo chiều dọc */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #04c869;
+  text-transform: uppercase;
+
+}
+
+.title-text {
+  padding-right: 10px;
+  /* Khoảng cách giữa chữ và đường kẻ */
+
+}
+
+.tag .line {
+  flex-grow: 1;
+  /* Để đường kẻ giãn ra hết phần còn lại */
+  height: 2px;
+  background-color: #04c869;
+  /* Cùng màu với chữ */
+}
+
+.pic_perrson {
+  margin: 10px;
+  position: absolute;
+}
+
+.infor {
+  color: #04c869;
+  margin-top: 20px;
+  margin-left: 25px;
+
+}
+
+.infor_detail {
+  margin-top: 5px;
+  color: #04c869;
+  display: flex;
+  align-items: center;
+}
+.icon{
+  margin: 5px;
+  width: 18px;
+}
+.exp{
+  margin-top: 10px;
+  color:white;
+  margin-left: 10px;
+}
+.exp_person{
+  margin-left: 15px;
+}
+.information_person_right{
+  margin-bottom: 50px;
+  height: fit-content;
+}
+.right_container {
+  width: 900px;
+  /* height: 1000px; */
+  background: hsl(0, 0%, 100%);
+  margin: 10px 10px;
+}
+.job_time {
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  align-items: center;
+}
+.table_project{
+  display: flex;
+  flex-direction: column;
+}
+.tbl{
+  border-left: 2px solid #04c869;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: relative;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: #04c869; /* Màu của chấm tròn */
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: -5.5px; /* Để chấm tròn căn giữa thanh dọc */
+}
+p{
+  margin: 12px 0px;
+}
+h4{
+  margin:15px 0px;
+}
+
